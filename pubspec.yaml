@@ -37,6 +37,12 @@ dependencies:
   hydrated_bloc:
   path_provider:
   firebase_core: ^2.24.2
+  firebase_auth:
+  get_it:
+  dartz:
+  cloud_firestore:
+  just_audio:
+  
 
 dev_dependencies:
   flutter_test:
@@ -78,6 +84,9 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
+    - family: LeagueSpartan
+      fonts: 
+        - asset: assets/fonts/LeagueSpartan-Bold.otf
     - family: Satoshi
       fonts:
         - asset: assets/fonts/Satoshi-Black.ttf
